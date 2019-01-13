@@ -1,0 +1,55 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": "5.6.0",
+    "yarn": "1.12.3"
+  },
+  "dependencies": {
+    "gatsby": "2.0.76",
+    "gatsby-plugin-google-fonts": "0.0.4",
+    "gatsby-plugin-postcss": "2.0.2",
+    "gatsby-plugin-sass": "2.0.7",
+    "node-sass": "4.11.0",
+    "postcss-preset-env": "6.5.0",
+    "prop-types": "15.6.2",
+    "react": "16.5.1",
+    "react-dom": "16.5.1"
+  },
+  "devDependencies": {
+    "eslint": "5.12.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "3.4.0",
+    "eslint-import-resolver-webpack": "0.10.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-react": "7.12.3",
+    "prettier": "1.15.3"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 5 versions",
+    "Firefox ESR",
+    "safari >= 4"
+  ]
+}
